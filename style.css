@@ -60,3 +60,9 @@ body::after {
     box-shadow: 0 20px 40 px rgba (0, 0, 0, 0.05);
     transition: tranform 0.3s ease, borde-color 0.3s ease;
 }
+
+.card:hover {
+    /*Efeito ao passar o mouse no cartão*/
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.25);
+}
