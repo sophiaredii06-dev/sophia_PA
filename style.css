@@ -97,4 +97,6 @@ body::after {
     padding: 30 px;
 
     text-align: left;
+
+    transition: 0.3s ease;
 }
