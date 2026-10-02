@@ -87,3 +87,8 @@ body::after {
 
     gap: 20px;
 }
+
+.info-card {
+    background: #090d16(255, 255, 255, 0.04);
+    border: 1px solid  #090d16(255, 255, 255, 0.12);
+}
