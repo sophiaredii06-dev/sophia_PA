@@ -74,3 +74,9 @@ body::after {
     max-width: 1000px;
     text-align: center;
 }
+
+.conteudo h2 {
+    font-size: 2rem;
+    color: #f8fafc;
+    margin-bottom: 30px;
+}
