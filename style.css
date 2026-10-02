@@ -95,4 +95,6 @@ body::after {
     border-radius: 18px;
 
     padding: 30 px;
+
+    text-align: left;
 }
