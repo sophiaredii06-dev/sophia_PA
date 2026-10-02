@@ -66,3 +66,11 @@ body::after {
     transform: translateY(-5px);
     border-color: rgba(255, 255, 255, 0.25);
 }
+
+.conteudo {
+    position:relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
