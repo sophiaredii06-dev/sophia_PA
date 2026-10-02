@@ -103,4 +103,6 @@ body::after {
 
 .info-card:hover {
     transform: translateY(-5px);
+
+    border-color: #dc2626;
 }
