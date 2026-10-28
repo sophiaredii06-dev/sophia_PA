@@ -88,7 +88,7 @@ body::after {
     gap: 20px;
 }
 
-.info-card {
+.info-card {  
     background: #090d16(255, 255, 255, 0.04);
     border: 1px solid  #090d16(255, 255, 255, 0.12);
 
@@ -105,4 +105,28 @@ body::after {
     transform: translateY(-5px);
 
     border-color: #dc2626;
+}
+
+.info-card h3{
+    color: #f87171;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.info-card p:last-child{
+    margin-top: 0;
+}   
+    @media (max-width: 768px){
+        .informacoes{
+            grid-template-columns: 1fr;
+        }
+    
+
+    .conteudo h2{
+        font-size: 1.6rem;
+    }
+
+    .info-card{
+        padding: 22px;
+    }
 }
